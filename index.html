@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissor</h1>
+    </header>
+
+    <div class="score-board">
+        <div id="user-label" class="badge">user</div>
+        <div id="computer-label" class="badge">computer</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div id="result">
+        <p>Let's begin the game!</p>
+    </div>
+
+    <div id="choices">
+        <div id="r" class="choice">
+            <img src="images/icons8-hand-rock-48.png" alt="Rock" title="Rock" />
+        </div>
+
+        <div id="p" class="choice">
+            <img src="images/icons8-hand-48.png" alt="Paper" title="Paper" />
+        </div>
+
+        <div id="s" class="choice">
+            <img src="images/icons8-hand-scissors-48.png" alt="Scissor" title="Scissor" />
+        </div>
+    </div>
+
+    <div id="action-message">
+        <p>Make your move.</p>
+        <a id="reset-score">Reset Score</a>
+    </div>
+
+    <footer>
+        <p>Developed by <a href="https://github.com/beejoy" target="_blank">Bijay Rai</a></p>
+        <p><a target="_blank" href="https://icons8.com/icons/set/hand">Hand icons</a> by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
