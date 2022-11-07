@@ -1,2 +1,3 @@
 # RockPaperScissor
-Classic rock, paper, scissor game in JS.
+
+Classic rock, paper, scissor game written in plain Javascript.
